@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "League Spartan", sans-serif;
+    font-style: normal;
+}
+.bg-primary{
+    background-color: #2D3653 !important;
+}
+.bg-golden{    
+    background-color: #fae39b !important;
+}
+.text-primary{
+    color: #2D3653 !important;
+}
+.text-primary-light{
+    color: #7381af !important;
+
+}
+.text-golden{
+    color: #fae39b !important;
+}
+.nav-link{
+    color: #2D3653 !important;
+    font-weight: 600;
+}
+.nav-item{
+    padding: 0 10px ;
+}
+.active{
+    border-bottom:2px solid  #2D3653;
+}
+
+
+.carousel-indicators button{
+    background-color: #E0CA7F !important;
+    height:10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+
+}
+.carousel-caption{
+    bottom: 50%;
+    transform: translateY(50%);
+    right: auto;
+    left: 10%;
+    color: #E0CA7F;
+    text-align: left;
+}
+.carousel .contactForm{
+    background-color: white;
+    position: absolute;
+    right: 10%;
+    width: 400px;
+    padding: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.contactForm input{
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    padding:5px 10px;
+}
+.contactForm input[type='checkbox']{
+    height: 20px;
+    width: 20px;
+}
+.contactForm label{
+    font-size: 12px;
+}
+.admission-information p,.admission-information li{
+    font-size: 18px;
+}
+.admission-information li{
+    margin-bottom: 15px;
+}
+.admission-information h3{
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.placements img{
+    height: 100px;
+    width: 200px;
+    object-fit: contain;
+    margin: 0 10px;
+}
+.placements div{
+    padding: 20px;
+    box-shadow: 0 0 10px -5px gray ;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+@media (max-width:768px){
+    .placements img{
+        height: 50px;
+        width: 100px;
+    }
+}
+
+@media (max-width:500px){
+    .placements img{
+        height: 40px;
+        width: 80px;
+    }
+}
