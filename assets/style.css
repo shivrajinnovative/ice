@@ -36,7 +36,6 @@ body{
     height:10px !important;
     width: 10px !important;
     border-radius: 50%;
-
 }
 .carousel-caption{
     bottom: 50%;
@@ -54,6 +53,11 @@ body{
     padding: 20px;
     top: 50%;
     transform: translateY(-50%);
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #fae39b;
+    border-radius: 50%;
+    background-size: 60% 60%;
 }
 .contactForm input{
     margin-bottom: 10px;
@@ -96,6 +100,12 @@ body{
     .placements img{
         height: 50px;
         width: 100px;
+    }
+    .carousel-caption h5{
+        font-size: 5vw;
+    }
+    .carousel-caption p{
+        font-size: 3vw !important;
     }
 }
 
