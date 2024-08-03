@@ -113,7 +113,12 @@ body{
     margin: 15px auto;
     border-radius: 5px;
 }
-
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+.accordion-button::after{
+    filter: invert();
+}
 @media (max-width:768px){
     header p{
         font-size: 14px !important;
